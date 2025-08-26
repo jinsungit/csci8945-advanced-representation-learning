@@ -154,7 +154,7 @@ Documentation and APIs
 - `scikit-learn Algorithm Cheat Sheet <https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html>`_
 
 Forums and Communities
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
 **Academic Communities**
 

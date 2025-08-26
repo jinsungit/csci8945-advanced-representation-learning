@@ -160,6 +160,8 @@ git checkout main
 - Check the Actions tab for detailed error logs
 - Ensure all dependencies are in `requirements.txt`
 - Test build locally with `python setup.py build`
+- **Pandoc issues**: The workflow now automatically installs Pandoc
+- **Title underline warnings**: Ensure RST title underlines are at least as long as the title text
 
 ### Notebook Issues
 - Clear outputs: `python setup.py clean`
