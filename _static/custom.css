@@ -1,0 +1,187 @@
+/* Custom CSS for CSCI 8945: Advanced Representation Learning */
+
+/* Course title styling */
+.wy-nav-content-wrap .wy-nav-content .rst-content h1 {
+    color: #2980B9;
+    border-bottom: 3px solid #2980B9;
+    padding-bottom: 10px;
+}
+
+/* Section headers */
+h2 {
+    color: #34495E;
+    border-left: 4px solid #3498DB;
+    padding-left: 15px;
+}
+
+/* Code blocks */
+.highlight {
+    border-radius: 5px;
+    border: 1px solid #E1E8ED;
+}
+
+/* Note boxes */
+.admonition.note {
+    border-left: 4px solid #3498DB;
+    background-color: #EBF5FB;
+}
+
+/* Warning boxes */
+.admonition.warning {
+    border-left: 4px solid #F39C12;
+    background-color: #FEF9E7;
+}
+
+/* Important boxes */
+.admonition.important {
+    border-left: 4px solid #E74C3C;
+    background-color: #FADBD8;
+}
+
+/* Tables */
+.rst-content table.docutils {
+    border: 1px solid #BDC3C7;
+    border-radius: 5px;
+}
+
+.rst-content table.docutils th {
+    background-color: #3498DB;
+    color: white;
+    font-weight: bold;
+}
+
+.rst-content table.docutils td {
+    border-bottom: 1px solid #ECF0F1;
+    padding: 10px;
+}
+
+.rst-content table.docutils tr:nth-child(even) {
+    background-color: #F8F9FA;
+}
+
+/* Links */
+a {
+    color: #2980B9;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #1A5490;
+    text-decoration: underline;
+}
+
+/* Navigation improvements */
+.wy-nav-side {
+    background: linear-gradient(180deg, #2C3E50 0%, #34495E 100%);
+}
+
+.wy-menu-vertical li.current a {
+    background: #3498DB;
+    border-right: 3px solid #E74C3C;
+}
+
+/* Footer */
+footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #BDC3C7;
+    color: #7F8C8D;
+    text-align: center;
+}
+
+/* Jupyter notebook styling */
+.nbinput .highlight,
+.nboutput .highlight {
+    margin: 0;
+}
+
+.nbinput {
+    border-left: 3px solid #3498DB;
+    background-color: #F8F9FA;
+}
+
+.nboutput {
+    border-left: 3px solid #2ECC71;
+    background-color: #F0FFF4;
+}
+
+/* Code cell counters */
+.nbinput .prompt,
+.nboutput .prompt {
+    color: #2980B9;
+    font-weight: bold;
+}
+
+/* Mathematical expressions */
+.math {
+    font-size: 1.1em;
+}
+
+/* Button styling for links */
+.btn-primary {
+    background-color: #3498DB;
+    border-color: #3498DB;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #2980B9;
+    border-color: #2980B9;
+    text-decoration: none;
+}
+
+/* Learning objectives styling */
+.learning-objectives {
+    background-color: #E8F6F3;
+    border: 1px solid #1ABC9C;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.learning-objectives h3 {
+    color: #16A085;
+    margin-top: 0;
+}
+
+/* Exercise boxes */
+.exercise {
+    background-color: #FDF2E9;
+    border: 1px solid #E67E22;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+.exercise h4 {
+    color: #D35400;
+    margin-top: 0;
+}
+
+/* Responsive design improvements */
+@media screen and (max-width: 768px) {
+    .wy-nav-content-wrap {
+        margin-left: 0;
+    }
+    
+    .wy-nav-side {
+        left: -300px;
+    }
+}
+
+/* Print styles */
+@media print {
+    .wy-nav-side,
+    .wy-nav-content-wrap .wy-nav-content .rst-content .headerlink {
+        display: none;
+    }
+    
+    .wy-nav-content-wrap {
+        margin-left: 0;
+    }
+}
